@@ -1,0 +1,83 @@
+
+
+
+.back-img{
+    display: flex;
+    flex-wrap: wrap;
+    flex:5 100% !important;
+}
+
+
+
+
+
+.polaroid-1{
+
+    order:0;
+    
+    
+}
+
+.polaroid-2{
+    order: 1;
+}
+
+.polaroid-3{
+    order:2;
+    
+
+}
+.polaroid-4{
+    order:3;
+}
+
+
+.polaroid-5{
+     
+    order:4;
+    
+}
+
+
+
+
+
+.polaroid-1 , .polaroid-2 , .polaroid-3 {
+ width: 24%;
+height: auto; 
+  max-width: 100%;
+    color: black;
+    margin: 1% 4%;
+}
+.polaroid-4 , .polaroid-5{
+ width: 24%;
+height: auto; 
+  max-width: 100%;
+    color: black;
+    margin: 8% 10%;
+
+    }
+.container img{
+     max-width: 100%;
+    height: auto;
+    border-style: double;
+    border-width: 4px;
+    border-radius: 50%;
+    border-color: rgba(202, 59, 16, 0.918);
+   
+     
+}
+
+.container #tittle{
+    font-size: 20px;
+    text-align: center;
+    font-family: Pompiere;
+    font-weight: bold;
+    margin: 10% 0%;
+}
+
+
+.back-img>.polaroid-1 img{
+width: 100%;
+height: auto;
+}

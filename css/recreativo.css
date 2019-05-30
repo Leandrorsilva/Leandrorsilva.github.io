@@ -1,0 +1,186 @@
+.container{
+    
+display: flex;
+flex-wrap: wrap;
+margin: 10% 0px;
+
+}
+.container >* {
+    justify-content: center;
+            font-size: 18px;
+            font-family: pompiere;
+            font-size: 20px;
+            font-weight: bold;
+                border-style: double;
+             background: rgba(193, 196, 248, 0.10);
+             border-width: 3px;
+    border-radius: 2%;
+    border-color: rgba(202, 59, 16, 0.918);
+    margin: 10% 15px;
+    text-align: center;
+
+        }
+.container h2{
+    text-align: center;
+
+}
+
+
+.musica{
+order: 0;
+width: 30%;
+height: auto;
+
+
+
+}
+
+
+.ceramica{
+order: 1;
+height: auto;
+width: 30%; 
+
+}
+
+
+.marcenaria{
+order: 2;
+width: 30%;
+height: auto;
+}
+
+
+.padaria{
+order: 3;
+width: 30%;
+height: auto;
+margin: 0% 10%;
+}
+
+
+.tecelagem{
+order: 4;
+width: 30%;
+height: auto;
+margin: 0% 0%;
+
+
+}
+
+
+.more-atividades{
+width: 100%;
+height: auto;
+
+}
+
+.more-atividades img{
+       width: 50%;
+
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(202, 59, 16, 0.918), 0 10px 10px 0 rgba(202, 59, 16, 0.918);
+     border-style: inset;
+    border-width: 2px;
+    border-radius: 1%;
+    border-color: rgba(86, 236, 86, 0.86);
+
+}
+
+
+.more-atividades p{
+    font-family: pompiere;
+            font-size: 20px;
+            padding: 0px 0px;
+            text-align: justify;
+            
+    
+}
+.more-atividades .fa{
+border-radius: 50%;
+max-width: 100%;
+width: auto;
+height: auto;
+      list-style: none;
+    margin: 2% 6%;
+    font-size:30px;
+    background-color:rgba(243, 240, 84, 0.555);
+    text-align: center;
+    color: black;
+    vertical-align: middle;
+}
+
+/* Script das fotos de mais atividades */
+.atividades-terapeuticas{
+    display: flex;
+    flex-wrap: wrap;
+    flex:6 25% !important;
+}
+
+.polaroid-1{
+
+    order:0;
+    
+    
+}
+
+.polaroid-2{
+    order: 1;
+    flex-direction: column;
+}
+
+.polaroid-3{
+    order:2;
+    flex-direction: column;
+    
+
+}
+.polaroid-4{
+    order:3;
+    flex-direction: column;
+}
+
+
+.polaroid-5{
+     
+    order:4;
+    flex-direction: column;
+    
+}
+
+.polaroid-6{
+    
+    order:5;
+    flex-direction: column;
+   
+}
+
+
+
+
+.polaroid-1 , .polaroid-2 , .polaroid-3 , .polaroid-4 , .polaroid-5 , .polaroid-6  , .polaroid-7{
+  width: 30%;
+  height: auto;
+  background-color:rgba(243, 240, 84, 0.555);
+  box-shadow: 0 4px 8px 0 rgba(202, 59, 16, 0.918), 0 10px 10px 0 rgba(202, 59, 16, 0.918);
+   max-width: 100%;
+  height: auto;
+  border-style: inset;
+    border-width: 2px;
+    border-radius: 1%;
+    border-color: rgba(86, 236, 86, 0.86);
+    margin: 5% 20px; 
+    color: black;
+}
+
+
+.atividades-terapeuticas .text{
+    font-family: Pompiere;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+

@@ -1,0 +1,82 @@
+blockquote {
+	letter-spacing: 1px;
+    margin:5% 0%;
+    text-align: right;
+	padding:10px 80px 10px;
+	position:relative;
+	font-family: Pompiere;
+	font-size:20px;
+	border:0;
+}
+blockquote:before {
+	display:block;
+	content:"\201C";
+    font-size:80px;
+    position: absolute;
+	left:220px;
+	top:-20px;
+	color:#cc580c;
+    font-family:Georgia;
+    text-align: right;
+}
+blockquote cite {
+	color:#cc580c;
+	display:block;
+	margin-top:5px;
+    text-align:right;
+    font-size: 20px;
+    font-weight: bold;
+}
+blockquote cite:before {
+    content: "\2014 \2009";
+    
+}
+
+
+.atividades-educativas {
+  position: relative;
+  width: 30%;
+ 
+  
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden; 
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+
+
+.item-terapeutico:hover .image {
+  opacity: 0.3;
+}
+
+.item-terapeutico:hover .middle  {
+  opacity: 1;
+}
+
+
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 160px;
+  padding: 16px 20px;
+  font-family: pompiere;
+}
