@@ -11,16 +11,21 @@ margin: 10% 0px;
             font-family: pompiere;
             font-size: 20px;
             font-weight: bold;
-                border-style: double;
-             background: rgba(193, 196, 248, 0.10);
+                border-right: #00ff00;
+        border-left: #2abd31;
+        border-bottom: rgba(223, 46, 46, 0.815);
+        border-top: #4a357aa4;
+        border-style: double;
+             background: rgba(191, 193, 230, 0.301);
              border-width: 3px;
-    border-radius: 2%;
-    border-color: rgba(202, 59, 16, 0.918);
-    margin: 10% 15px;
+    border-radius: 2px;
+    margin: 2% 15px;
     text-align: center;
+    padding: 2px 15px;
 
         }
 .container h2{
+    padding: 10px 0px;
     text-align: center;
 
 }
@@ -68,49 +73,76 @@ margin: 0% 0%;
 
 }
 
-
 .more-atividades{
-width: 100%;
-height: auto;
+    width: 100%;
+    height: auto;
+    background:rgba(180, 183, 240, 0.404);
+    display: flex;
+    justify-content: left;
+    align-items: center;
 
 }
+
+
+.more-atividades>*{
+flex-wrap: wrap;
+margin: 2% 0%;
+}
+
 
 .more-atividades img{
-       width: 50%;
 
-       margin-left: auto;
-       margin-right: auto;
-       display: block;
-    height: auto;
-    box-shadow: 0 4px 8px 0 rgba(202, 59, 16, 0.918), 0 10px 10px 0 rgba(202, 59, 16, 0.918);
-     border-style: inset;
+    width: 550px;   
+    margin-left: 20px;
+    margin-right: 0px;
+    height: 300px;
     border-width: 2px;
     border-radius: 1%;
-    border-color: rgba(86, 236, 86, 0.86);
+    margin-top: 20px;
+    padding: 3px 10px;
+    outline: 1px solid rgba(15, 15, 15, 0.712);
+    outline-offset: -15px;
+
 
 }
 
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 
-.more-atividades p{
+
+.icones>*{
+    width: 100%;
+    margin: 12% 20%;
+   
+}
+
+
+
+ .icones p {
     font-family: pompiere;
             font-size: 20px;
-            padding: 0px 0px;
-            text-align: justify;
-            
+            padding: 7px 2px;
+    margin: 2% 2%;
+    font-weight: bold;
+    letter-spacing: 1px;
+
     
 }
-.more-atividades .fa{
+.icones .fa{
 border-radius: 50%;
 max-width: 100%;
-width: auto;
-height: auto;
-      list-style: none;
-    margin: 2% 6%;
-    font-size:30px;
-    background-color:rgba(243, 240, 84, 0.555);
+    margin: 2% 8%;
+    font-size:35px;
+    background-color:transparent;
     text-align: center;
-    color: black;
-    vertical-align: middle;
+    color: rgb(42, 48, 44);
+     
+  
+  
 }
 
 /* Script das fotos de mais atividades */
@@ -118,6 +150,10 @@ height: auto;
     display: flex;
     flex-wrap: wrap;
     flex:6 25% !important;
+}
+
+ h3{
+    text-align: center;
 }
 
 .polaroid-1{
@@ -158,22 +194,36 @@ height: auto;
    
 }
 
+.atividades-terapeuticas img{
+    width: 320px;
+    height: 290px;
+      object-fit:cover;
 
+}
 
 
 .polaroid-1 , .polaroid-2 , .polaroid-3 , .polaroid-4 , .polaroid-5 , .polaroid-6  , .polaroid-7{
   width: 30%;
   height: auto;
   background-color:rgba(243, 240, 84, 0.555);
-  box-shadow: 0 4px 8px 0 rgba(202, 59, 16, 0.918), 0 10px 10px 0 rgba(202, 59, 16, 0.918);
+  box-shadow: 0 4px 8px 0 rgba(245, 242, 81, 0.918), 0 10px 10px 0 rgba(202, 59, 16, 0.918);
    max-width: 100%;
   height: auto;
   border-style: inset;
     border-width: 2px;
-    border-radius: 1%;
-    border-color: rgba(86, 236, 86, 0.86);
+    border-radius: 2px;
+    border-color: rgba(236, 47, 47, 0.86);
     margin: 5% 20px; 
     color: black;
+    
+}
+
+
+.polaroid-1:hover , .polaroid-2:hover, .polaroid-3:hover , .polaroid-4:hover , .polaroid-5:hover , .polaroid-6:hover  , .polaroid-7:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
 }
 
 
@@ -182,5 +232,7 @@ height: auto;
     font-size: 18px;
     text-align: center;
     font-weight: bold;
+        padding: 10px 10px;
+
 }
 

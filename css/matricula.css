@@ -62,29 +62,32 @@ order: 4;
 
 .infantil-1:hover  #f1_card {
   transform: rotateY(180deg);
-  box-shadow: -5px 5px 5px #aaa;
+  box-shadow: -5px 5px 5px rgb(248, 93, 93);
 }
 
 .fundamental-1:hover #f1_card{
 transform: rotateY(180deg);
-  box-shadow: -5px 5px 5px #aaa;
+  box-shadow: -5px 5px 5px rgb(248, 93, 93);
 }
 
 .fundamental-2:hover #f1_card{
 transform: rotateY(180deg);
-  box-shadow: -5px 5px 5px #aaa;
+  box-shadow: -5px 5px 5px rgb(248, 93, 93);
 }
 
 .medio:hover #f1_card{
 transform: rotateY(180deg);
-  box-shadow: -5px 5px 5px #aaa;
+  box-shadow: -5px 5px 5px rgb(248, 93, 93);
 }
 
 .oficinas:hover #f1_card{
 transform: rotateY(180deg);
-  box-shadow: -5px 5px 5px #aaa;
+  box-shadow: -5px 5px 5px rgb(248, 93, 93);
 }
 
+
+
+/* FORMULARIO DE AGENDAMENTO */
 
 .form-contact{
 max-width: 100%;
@@ -164,34 +167,32 @@ background-color: rgba(236, 178, 178, 0.801);
 
 
 .container .vertical{
-    margin:10px 70px;
+    margin:15px 10px;
 
 }
 
 .form-contact i{
 
 	color: #160b0b;
-	font-size: 25px;
+	font-size: 28px;
 	width: 43px;
   height: 42px;
-  border-color: gold;
-  border-style: double;
-  border-width: 1px;  
 	border-radius: 50%;
 	text-align: center;
 	line-height: 42px;
-	margin: 4px 5px;
+  margin: 5px 5px;
 
 }
 
 
 
 .form-contact p{
+  letter-spacing: 1px;
 	display: inline-block;
 	color: black;
 	margin:0 10px;
-	font-size:22px;
-    font-family: pompiere;
+	font-size:18px;
+    font-family: Nixie one ;
     font-weight: bold;
 
 

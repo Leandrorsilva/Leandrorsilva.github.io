@@ -27,6 +27,24 @@
 </head>
 
 
+<script language="javascript" type="text/javascript">
+
+    function validar() {
+        var nome = form1.Nome.value;
+
+    }
+    if (nome == "") {
+        alert(" informe o valor do campo")
+    }
+
+
+</script>
+
+
+
+
+
+
 <!-- FOTO DE CARD E MENU -->
 <header>
 
@@ -97,11 +115,8 @@
                     para crianças,
                     jovens e adultos especiais.</p>
                 <p>Para acessar mais fotos, entre em nossa página no Facebook.</p>
-                <p><i class="fa fa-angle-down"></i></p>
-
+                <p><i class="fa fa-angle-double-down"></i></p>
             </section>
-
-
             <section class="ensino">
 
                 <section class="infantil-1">
@@ -167,7 +182,8 @@
                         </div>
                         <div class="back face center">
                             <h2> Ensino medio </h2>
-                            <p>Descrição: das 7h30 às12h30 com possibilidade de oficinas a tarde até às 16h30</p>
+                            <p>Descrição: das 7h30 às12h30 com possibilidade de oficinas a tarde até às 16h30
+                            </p>
 
                             <p>Perfil dos Alunos: de 15 a 18 anos</p>
 
@@ -194,7 +210,8 @@
 
                             <p> Inscrições: É necessário agendar entrevista com o coordenador pedagógico
 
-                                Todas as atividades são definidas e desenvolvidas a partir do acompanhamento da evolução
+                                Todas as atividades são definidas e desenvolvidas a partir do acompanhamento da
+                                evolução
                                 dos
                                 alunos</p>
 
@@ -207,13 +224,16 @@
             </section>
 
             <section class="form-contact">
-                <h2> Agende sua visita </h2>
-                <form class="contato">
+
+
+
+                <h2> Agende sua visita <i class="fa fa-calendar"></i></h2>
+                <form name="form1" class="contato">
 
 
                     <div class="fields">
                         <input type="name" placeholder="Nome Résponsavel " name="Nome">
-                        <input type="email" placeholder="E-Mail " name="E-Mail">
+                        <input type="email" placeholder="E-Mail " name="Email">
                     </div>
 
                     <div class="fields">
@@ -234,7 +254,7 @@
                         </select>
                     </div>
                     <div class="vertical">
-                        <input type="submit" value="Enviar" id="submit">
+                        <input type="submit" value="Enviar" id="submit" onclick="return validar()">
                         <i class="fa fa-envelope"></i>
                         <p> institutotravessia@gmail.com</p>
 
@@ -266,12 +286,12 @@
 
 
             <p id="endereco"> Endereço - Rua Cap. Felisbino de Morais, 10 CEP 04638-010 - São Paulo
-
+            </p>
+            <p id="endereco">
                 Contatos :
                 (11)
                 5093-9524 / (11) 97577-7275
             </p>
-
 
             <section class="midias">
                 <ul>

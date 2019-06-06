@@ -13,13 +13,13 @@
 .pricingTable-firstTable_table {
   vertical-align: middle;
   width: 25%;
-background-color: rgba(102, 178, 241, 0.486);
+  background: rgba(191, 193, 230, 0.301);
   display: inline-block;
   padding: 0px 20px 20px;
   max-width: 100%;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  border-radius: 5px;
+  border-radius: 3px;
   border-style: double;
   border-width: 4px;
   font-family: Pompiere;
@@ -32,7 +32,7 @@ background-color: rgba(102, 178, 241, 0.486);
 }
 
 .pricingTable-firstTable_table:not(:last-of-type) {
-  margin-right: 3.5%;
+  margin-right: 9.5%;
 }
 
 .pricingTable-firstTable_table:nth-of-type(2) {
@@ -77,8 +77,8 @@ background-color: rgba(102, 178, 241, 0.486);
 
 .pricingTable-firstTable_table__options {
   list-style: none;
-  padding: 10px;
-  font-size: 20px;
+  padding: 15px;
+  font-size: 22px;
  border-bottom: 1px solid #1e201f;
 
 }
@@ -86,7 +86,7 @@ background-color: rgba(102, 178, 241, 0.486);
 
 
 .pricingTable-firstTable_table__options > li {
-  padding: 8px 0px;
+  padding: 12px 0px;
 }
 
 
@@ -103,17 +103,20 @@ background-color: rgba(102, 178, 241, 0.486);
   text-align: center;
 }
 
-.pricingTable-firstTable_table__getstart {
-  color: white;
-  background-color: #71ce73;
+.pricingTable-firstTable_table__getstart #submit{
+  color: black;
+  background-color: #e9671bb6;
   margin-top: 30px;
-  border-radius: 5px;
-  cursor: pointer;
-  padding: 15px;
-  box-shadow: 0px 3px 0px 0px #66ac64;
-  letter-spacing: 0.07em;
+  border-radius: 3px;
+  padding: 10px;
+  border:none !important;
+  box-shadow: 1px 1px 2px 1px #161616be;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  font-size: 20px;
+  width: 50%;
+  height: auto;
+  font-family: pompiere;
 }
 
 
@@ -206,8 +209,20 @@ background-color: rgba(102, 178, 241, 0.486);
   }
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+
+
+
+blockquote:before {
+	display:block;
+	content:"\201C";
+    font-size:80px;
+    position: absolute;
+	left:780px;
+	top:-20px;
+	color:#cc580c;
+    font-family:Georgia;
+    text-align: right;
+
+
 }
+
