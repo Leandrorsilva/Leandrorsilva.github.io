@@ -153,14 +153,13 @@ margin: 10px 0px;
 /* DESCRIÇÃO DA PAGINA */
 
 .description{
-    border-top: outset rgba(243, 63, 31, 0.76);
-    border-bottom: outset rgba(245, 241, 10, 0.705);
-;
-border-width: 5px;
+    border-top: outset rgba(243, 63, 31, 0.925);
+    border-bottom: outset rgba(245, 241, 10, 0.863);
+border-width: 2px;
  font-family: Pompiere;
  font-size: 22px;
  text-align: center;
- background: linear-gradient(25deg, #fd9ccd, #f5f5e5, #ddebdd,#f5f5e5, #ecd5d5,  #fd9ccd); 
+ background: linear-gradient(0deg,#4b0866b4, #f3f3e6, #e6f8e6,#f5f5eb, #f7f2f2,  #4b0866b4); 
 position: relative;
 	margin: 10% 0%;
 	width: 100%;
@@ -362,7 +361,7 @@ background-color: rgba(102, 178, 241, 0.486);
 
 .footer #copright{
 font-size: 22px;
-font-family: Reenie Beanie;
+font-family: 'Buda', cursive;
 background-color: rgba(12, 11, 11, 0.979);
 margin-top: 40px;
 text-align: center;

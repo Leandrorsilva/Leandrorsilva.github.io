@@ -38,6 +38,7 @@ blockquote cite:before {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   margin: 10% 0%;
  
   
