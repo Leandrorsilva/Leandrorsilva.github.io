@@ -47,8 +47,8 @@ blockquote cite:before {
 .atividades-educativas img {
   opacity: 1;
   display: block;
-  width: 220px;
-  height: 340px;
+  width: auto;
+  height: auto;
   padding: 10px 10px;
   overflow: hidden;
     outline: 2px solid rgb(229, 248, 122);
